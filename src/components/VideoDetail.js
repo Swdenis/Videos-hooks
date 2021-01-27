@@ -3,7 +3,7 @@ import Spinner from './Spinner';
 
 const VideoDetail = ({video}) => {
     if(!video) {
-        return (<div>Loading...</div>);
+        return (<div><Spinner message="Loading"/></div>);
     }
 
     const videoSrc= `https://www.youtube.com/embed/${video.id.videoId}`;

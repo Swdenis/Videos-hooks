@@ -3,10 +3,13 @@ import React from 'react';
 const Spinner = props =>
 { 
     return (
-    <div class="ui active dimmer">
-        <div class="ui big text loader">{props.message}</div>
+    <div>
+    <table>
+    <tr>
+    <td><div class="ui active inline loader"/></td>
+    <td style={{padding: "5px"}}><div>{props.message}</div></td></tr>
+    </table>
     </div>
-    
     );
 
     
