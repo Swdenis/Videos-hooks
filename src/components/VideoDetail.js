@@ -12,7 +12,8 @@ const VideoDetail = ({video}) => {
         <div className="ui embed">
             <iframe 
             title="video player"
-            src={videoSrc}/>
+            src={videoSrc}
+            allowfullscreen="allowfullscreen"/>
         </div>
         <h4 className="ui header">
         {video.snippet.title}
