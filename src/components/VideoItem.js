@@ -1,5 +1,4 @@
 import React from 'react';
-import VideoList from './VideoList';
 import './VideoItem.css';
 
 const VideoItem = ({video, onVideoSelect}) => {
