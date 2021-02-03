@@ -13,7 +13,7 @@ const VideoDetail = ({video}) => {
             <iframe 
             title="video player"
             src={videoSrc}
-            allowfullscreen="allowfullscreen"/>
+            allowfullscreen="allowFullScreen"/>
         </div>
         <h4 className="ui header">
         {video.snippet.title}
