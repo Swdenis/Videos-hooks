@@ -27,6 +27,11 @@ const SearchBar = ({onFormSubmit}) => {
                     }}
                     />
                 </div>
+                <button 
+                className="ui button" 
+                onClick={onSubmit}>
+                Search
+                </button>
             </form>
         </div>
     );
