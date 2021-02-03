@@ -20,7 +20,7 @@ const SearchBar = ({onFormSubmit}) => {
                     <input 
                     id="videoSearchBar" 
                     type="text" 
-                    placeholder="Enter a video topic here"
+                    placeholder="Type text and press enter"
                     value={term}
                     onChange={event => {
                         setTerm(event.target.value);
